@@ -1,7 +1,7 @@
 This is the instruction file for a custom dCore Linux based project, which includes an i3 desktop, wifi, the Falkon Web Browser, Leafpad, and PCManFM file manager, as well as several scripts to make updating and adding software easier.
 It boots 64bit by default for better hardware support, but can also be booted from a 32 bit kernel, with all applications and changes duplicated.
 
-#####BASIC INSTRUCTIONS#####
+#####BASIC INSTRUCTIONS#####  
 You can use the mouse, but to start programs, you need to use keyboard shortcuts as described below in KEYBOARD
 CONTROLS, or use dmenu(windows key + d button) as described below in COMMANDS.
 
@@ -16,7 +16,7 @@ and click OK. You should now be able to connect to the network.
 For Ethernet or phone tethering, click Preferences and change wired interface to eth0 for ethernet, or
 usb0 to use your phone's wifi through USB. Be sure to turn on tethering on your phone.
 
-#####KEYBOARD CONTROLS#####
+#####KEYBOARD CONTROLS#####  
 winkey is your windows key on your keyboard.
 
 winkey + b              opens your web browser
@@ -36,7 +36,7 @@ winkey + 1-9            moves to that number desktop. Desktops with windows on t
                         The current desktop is shown in blue.
 winkey + shift + 1-9    moves the current window to that desktop. The current window has a bright red title.
 
-#####COMMANDS#####
+#####COMMANDS#####  
 winkey + d              opens a menu at the top where you can type commands like:
 
         README          open this README file
